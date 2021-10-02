@@ -50,6 +50,12 @@ export const Logo = styled.h1`
   }
   ${mobile({ fontSize: "24px" })};
 `;
+export const LogoAdmin = styled.h1`
+  font-weight: 900;
+  font-size: 55px;
+  color: #000;
+  ${mobile({ fontSize: "24px" })};
+`;
 
 export const Right = styled.div`
   flex: 1;
