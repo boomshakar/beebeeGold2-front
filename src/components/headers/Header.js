@@ -22,7 +22,6 @@ import axios from "axios";
 
 const Header = () => {
   const state = useContext(GlobalState);
-  console.log(state);
   const [isLogged] = state.userAPI.isLogged;
   const [isAdmin] = state.userAPI.isAdmin;
   const [cart] = state.userAPI.cart;
